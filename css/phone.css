@@ -1,0 +1,87 @@
+*,body,div,ul,li,ol,span,dl,dt,dd,p,i,em{padding:0; margin:0;}
+* html{background-image:url(about:blank);background-attachment:fixed;}
+li{ list-style:none;}
+a{color: #333;text-decoration: none;}
+a *{cursor: pointer;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4,h5,h6{ font-size:12px; font-weight:normal;}
+img{ border:none;display: block;}
+html {font-size: 16px;width: 100%;}
+body {width: 100%;font-family: "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;}
+.clear{clear:both;display:block;line-height:0;font-size:0;overflow:hidden;visibility:hidden;}
+.clearFix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+.clearFix{*zoom:1}
+.fr{ float:right;}
+.fl{ float:left;}
+b,td,th{ font-weight:normal;}
+.fb{ font-weight:bold;}
+.fn{ font-weight:normal;}
+.tx{ text-indent:2em;}
+.vt{ vertical-align:top;}
+.vm{ vertical-align:middle;}
+.pr{ position: relative;}
+.pa{ position: absolute;}
+.bk_no{ background: none !important;}
+.br_no{ border:0 !important;}
+.none{display: none;}
+.oh{overflow: hidden;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+i,em{ font-style:normal;}
+input,select,textarea{outline:0 none;}
+textarea{overflow: auto;}
+a:focus {outline:none;-moz-outline:none;}
+
+
+.phoneBody{background:#1c6bc4 url(../image/phoneBg.jpg) no-repeat;background-size:100% auto;padding-bottom:2.75rem;}
+.phoneContainer{width:42.5rem;margin:0 auto;padding-top:4.125rem;}
+.phoneContainer .tit{width:38.625rem;height:14.125rem;background:url(../image/phoneTit.png) no-repeat;background-size:100% 100%;margin:0 auto;}
+.phoneTop{background:url(../image/phoneBg1.png) no-repeat;height:7.5625rem;background-size:cover;margin-top:2.875rem;}
+.phoneBottom{background:url(../image/phoneBg3.png) no-repeat;height:1.25rem;background-size:100% 100%;}
+.phoneCont{background:url(../image/phoneBg2.png) repeat-y;background-size:100% 100%;}
+.inforMessage td{height:5.5rem;}
+.inforMessage td.name{text-align:right;width:10rem;color:#fff;font-size:1.375rem;}
+.inforMessage td input{width:28.125rem;height:3.4375rem;background:#1654ab;border:1px solid #4883cf;margin-left:1rem;padding-left:2rem;box-sizing:border-box;color:#fff;}
+.fangYiInfo{height:1.75rem;border-bottom:1px solid #5f93d5;position:relative;margin:1.4375rem 2.75rem 0;}
+.fangYiInfo span{display:block;width:18.3125rem;height:3.125rem;border:1px solid #5f93d5;position:absolute;left:50%;top:0;margin-left:-9rem;background: #1a64c3;font-size:1.8125rem;color:#fff;line-height:3rem;text-align:center;}
+.overWhere{color:#fff;font-size:1.375rem;margin:3.25rem 2.75rem 0;line-height:2.25rem;}
+.areaChoose{margin:0 2.75rem 0;height:3.375rem;color:#fff;line-height:3.375rem;font-size:1.375rem;}
+.areaChoose span.radio{float:left;}
+.areaChoose span.radio i{display:inline-block;margin-right:40px;float:left;margin-top:2px;cursor: pointer;}
+.areaChoose span.radio i b{width:18px;height:18px;display:inline-block;background:url("../image/btn04.png") no-repeat; vertical-align:middle;margin-right:10px;}
+.areaChoose span.radio i.cur b{width:18px;height:18px;display:inline-block;background:url("../image/btn03.png") no-repeat;}
+.areaChoose .over{float: left;position:relative;top:3px;}
+.elseArea{height:4.875rem;background:#1654ab;border:1px solid #4883cf;margin:0.5rem 2.75rem 0;}
+.elseArea textarea{width:100%;height:4.875rem;background:none;border:0;color:#fff;padding:0 1rem;line-height:2rem;box-sizing:border-box;}
+.isNoToContry{border-bottom:1px solid #5f93d5;height:5.5rem;line-height:5.5rem;color:#fff;font-size:1.375rem;margin:0 2.75rem 0;}
+.isNoToContry span.radio{float:right;}
+.isNoToContry span.radio i{display:inline-block;margin-left:10px;float:left;cursor: pointer;}
+.isNoToContry span.radio i b{width:18px;height:18px;display:inline-block;background:url("../image/btn04.png") no-repeat; vertical-align:middle;margin-right:5px;}
+.isNoToContry span.radio i.cur b{width:18px;height:18px;display:inline-block;background:url("../image/btn03.png") no-repeat;}
+
+.isNoToContryOf{border-bottom:1px solid #5f93d5;height:7.1875rem;line-height:3.5rem;color:#fff;font-size:1.375rem;margin:0 2.75rem 0;position:relative;}
+.isNoToContryOf span.radio{position:absolute;right:0;bottom:4px;}
+.isNoToContryOf span.radio i{display:inline-block;margin-left:10px;float:left;cursor: pointer;}
+.isNoToContryOf span.radio i b{width:18px;height:18px;display:inline-block;background:url("../image/btn04.png") no-repeat; vertical-align:middle;margin-right:5px;}
+.isNoToContryOf span.radio i.cur b{width:18px;height:18px;display:inline-block;background:url("../image/btn03.png") no-repeat;}
+
+.isNoToContryYes{height:2.25rem;line-height:2.25rem;color:#fff;font-size:1.375rem;margin:1.2rem 2.75rem 0;position:relative;}
+.isNoToContryYes span.radio{position:absolute;right:0;bottom:2px;}
+.isNoToContryYes span.radio i{display:inline-block;margin-left:10px;float:left;cursor: pointer;}
+.isNoToContryYes span.radio i b{width:18px;height:18px;display:inline-block;background:url("../image/btn04.png") no-repeat; vertical-align:middle;margin-right:5px;}
+.isNoToContryYes span.radio i.cur b{width:18px;height:18px;display:inline-block;background:url("../image/btn03.png") no-repeat;}
+.bingZheng{margin:0 2.75rem 0;color:#fff;font-size:1.375rem;line-height:2.2rem;}
+.bingZheng span{margin-right:5px;}
+.bingZheng span i{display:inline-block;width:1.5rem;height:1.5rem;background:url(../image/btn05.png) no-repeat;background-size:cover;vertical-align:middle;margin:5px 5px 5px 0;}
+.bingZheng span i.cur{display:inline-block;width:1.5rem;height:1.5rem;background:url(../image/btn06.png) no-repeat;background-size:cover;}
+
+@media (max-width:410px){
+    .bingZheng{margin:0 2.75rem 0;color:#fff;font-size:1.375rem;line-height:2.2rem;}
+	.bingZheng span{margin-right:0;}
+	.bingZheng span i{display:inline-block;width:1.5rem;height:1.5rem;background:url(../image/btn05.png) no-repeat;background-size:cover;vertical-align:middle;margin:5px 0px 5px 0;}
+	.bingZheng span i.cur{display:inline-block;width:1.5rem;height:1.5rem;background:url(../image/btn06.png) no-repeat;background-size:cover;}
+
+}
+.signSearchBtn{height:4.3125rem;margin-top:1.875rem;text-align:center;}
+.signSearchBtn a{display:inline-block;width:12.375rem;height:4.3125rem;background:url("../image/btn.png") no-repeat;background-size:cover;}
+.signSearchBtn a i{display:inline-block;height:1.625rem;font-size:0;line-height:0;float:left;width:5.0625rem;background:url("../image/tit19.png") no-repeat;background-size:cover;margin:1.3rem 0 0 3.7rem;}

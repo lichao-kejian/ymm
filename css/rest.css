@@ -1,0 +1,40 @@
+*,body,div,ul,li,ol,span,dl,dt,dd,p,i,em{padding:0; margin:0;}
+* html{background-image:url(about:blank);background-attachment:fixed;}
+li{ list-style:none;}
+a{color: #333;text-decoration: none;}
+a *{cursor: pointer;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4,h5,h6{ font-size:12px; font-weight:normal;}
+img{ border:none;display: block;}
+html {font-size: 14px;width: 100%;}
+body {font-size: 14px;width: 100%;font-family: "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;}
+.clear{clear:both;display:block;line-height:0;font-size:0;overflow:hidden;visibility:hidden;}
+.clearFix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+.clearFix{*zoom:1}
+.fr{ float:right;}
+.fl{ float:left;}
+b,td,th{ font-weight:normal;}
+.fb{ font-weight:bold;}
+.fn{ font-weight:normal;}
+.tx{ text-indent:2em;}
+.vt{ vertical-align:top;}
+.vm{ vertical-align:middle;}
+.pr{ position: relative;}
+.pa{ position: absolute;}
+.bk_no{ background: none !important;}
+.br_no{ border:0 !important;}
+.none{display: none;}
+.oh{overflow: hidden;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+i,em{ font-style:normal;}
+input,select,textarea{outline:0 none;}
+textarea{overflow: auto;}
+a:focus {outline:none;-moz-outline:none;}
+body{background:#fff;}
+html,body{min-width:1200px;}
+#Header{height:60px;width:100%;min-width:1200px; background:#fff;}
+#Header .header{width:1200px;margin:0 auto;}
+#Header .header .logo{width:344px;margin:13px 0 0;}
+#Header .header p.fr{width:180px;}
+#Header .header p.fr a{color:#04144b;font-size:14px;font-weight:bold;line-height:20px;margin-top:20px;}
