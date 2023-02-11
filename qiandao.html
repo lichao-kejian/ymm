@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>陕西省信息通信行业协会</title>
+    <link rel="stylesheet" href="css/phone.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/phone.js"></script>
+</head>
+<body class="phoneBody">
+    <div class="phoneContainer">
+        <div class="tit"></div>
+        <div class="phoneTop"></div>
+        <div class="phoneCont">
+            <table border="0" cellpadding="0" cellspacing="0" class="inforMessage">
+                <tr>
+                    <td class="name">姓名：</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="name">电话：</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="name">单位地址：</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <div class="fangYiInfo"><span>14天内防疫信息填报</span></div>
+            <div class="overWhere">14天内我曾经居住或到过国内高风险中、低风险地区</div>
+            <p class="areaChoose"><span class="radio"><i class="cur"><b></b>否</i><i><b></b>是</i></span><span class="over">具体地方:</span></p>
+            <div class="elseArea">
+                <textarea></textarea>
+            </div>
+            <div class="isNoToContry"><span class="radio"><i class="cur"><b></b>否</i><i><b></b>是</i></span>14天内我曾经在境外居住或到过境外</div>
+            <div class="isNoToContryOf"><span class="radio"><i class="cur"><b></b>否</i><i><b></b>是</i></span>14天内我接触过来自国内高风险、中低风险地区,境外有发热、 发热、乏力、干咳等症状患者</div>
+
+            <div class="isNoToContryYes"><span class="radio"><i class="cur"><b></b>否</i><i><b></b>是</i></span>是否有以下症状 </div>
+            <p class="bingZheng"><span><i class="cur"></i>发热  (体温≥37.3℃)</span><span><i></i>乏力</span><span><i></i>乏力干咳</span><span><i></i>其他症状:</span></p>
+            <div class="elseArea">
+                <textarea></textarea>
+            </div>
+             <p class="signSearchBtn"><a href="#" class="entrance"><i></i></a></p>
+        </div>
+        <div class="phoneBottom"></div>
+    </div>
+</body>
+<script type="text/javascript">
+    var fontSizeAuto = function (){
+     var viewportWidth = document.documentElement.clientWidth;
+     // if(viewportWidth > 750){ viewportWidth = 750; }
+     if(viewportWidth < 320){ viewportWidth = 320; }
+     console.log(viewportWidth)
+     document.documentElement.style.fontSize = viewportWidth/750*16 +'px';
+    }
+    fontSizeAuto();
+    window.onresize = fontSizeAuto;
+</script>
+</html>
